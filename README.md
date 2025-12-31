@@ -2,6 +2,8 @@
 
 A Python-based project focused on analyzing financial transactions to detect patterns and potential fraudulent activities. It leverages statistical techniques, machine learning models, and insightful visualizations to extract and analyze patterns in the data.
 
+Dataset: [Kaggle](https://www.kaggle.com/datasets/vardhansiramdasu/fraudulent-transactions-prediction?select=Fraud.csv)
+
 ---
 
 ## Contents
