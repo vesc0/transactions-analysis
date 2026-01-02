@@ -1,6 +1,6 @@
-# Transactions Analysis
+# Fraud Detection in Financial Transactions
 
-A Python-based project focused on analyzing financial transactions to detect patterns and potential fraudulent activities. It leverages statistical techniques, machine learning models, and insightful visualizations to extract and analyze patterns in the data.
+A Python-based project that analyzes simulated financial transaction data with the goal of detecting fraudulent activity. It leverages statistical techniques, machine learning models, and insightful visualizations to extract and analyze patterns in the data.
 
 Dataset: [Kaggle](https://www.kaggle.com/datasets/vardhansiramdasu/fraudulent-transactions-prediction?select=Fraud.csv)
 
@@ -8,35 +8,38 @@ Dataset: [Kaggle](https://www.kaggle.com/datasets/vardhansiramdasu/fraudulent-tr
 
 ## Contents
 
-- [Overview](#overview)
-- [Technologies Used](#technologies-used)
+- [Dataset](#dataset)
+- [Methods](#methods)
+- [Key Challenges](#key-challenges)
+- [Results](#results)
+- [Tools](#tools)
 
 ---
 
-## Overview
+## Dataset
+- Simulated transactions over 30 days (hourly resolution)
+- Highly imbalanced dataset (~0.13% fraud)
+- Features include transaction type, amount, balances, and time step
 
-This project loads a dataset of financial transactions and performs:
-
-- Data cleaning and preprocessing
+## Methods
 - Exploratory Data Analysis (EDA)
-- Feature engineering and scaling
-- Model training with multiple classifiers
-- Fraud detection and classification
-- Visualization of key insights and predictions
+- Feature engineering
+- Machine Learning models:
+  - Random Forest
+  - XGBoost
+  - Logistic Regression
 
-It supports training models like **Random Forest**, **XGBoost**, **Logistic Regression**, and **Linear Regression**, with performance evaluation using metrics like accuracy, confusion matrix, and classification reports.
+## Key Challenges
+- Extreme class imbalance
+- High false-positive rate
+- Trade-off between precision and recall
 
----
+## Results
+Models achieve very high recall for fraud detection, demonstrating the difficulty of minimizing false positives in real-world fraud detection systems.
 
-## Technologies Used
-
-- **Python 3.13**
-- **pandas** – for data manipulation
-- **NumPy** – for numerical operations
-- **matplotlib** – for visualizations
-- **scikit-learn** – for preprocessing and ML models
-- **XGBoost** – for gradient boosting classification
-- **scipy** – for statistics and interpolation
-- **Google Colab** – for cloud-based development (via Google Drive integration)
-
----
+## Tools
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Google Colab
