@@ -1,8 +1,6 @@
 # Transactions Analysis
 
-A Python-based project focused on analyzing financial transactions to detect patterns and potential fraudulent activities. It leverages statistical techniques, machine learning models, and insightful visualizations to extract and analyze patterns in the data.
-
-Dataset: [Kaggle](https://www.kaggle.com/datasets/vardhansiramdasu/fraudulent-transactions-prediction?select=Fraud.csv)
+A Python-based project focused on analyzing financial transactions to detect patterns and potential fraudulent activities. It leverages statistical techniques and insightful visualizations to extract and analyze patterns in the data.
 
 ---
 
@@ -19,12 +17,7 @@ This project loads a dataset of financial transactions and performs:
 
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
-- Feature engineering and scaling
-- Model training with multiple classifiers
-- Fraud detection and classification
 - Visualization of key insights and predictions
-
-It supports training models like **Random Forest**, **XGBoost**, **Logistic Regression**, and **Linear Regression**, with performance evaluation using metrics like accuracy, confusion matrix, and classification reports.
 
 ---
 
@@ -34,8 +27,7 @@ It supports training models like **Random Forest**, **XGBoost**, **Logistic Regr
 - **pandas** – for data manipulation
 - **NumPy** – for numerical operations
 - **matplotlib** – for visualizations
-- **scikit-learn** – for preprocessing and ML models
-- **XGBoost** – for gradient boosting classification
+- **scikit-learn** – for ML models (Linear and Logistic Regression)
 - **scipy** – for statistics and interpolation
 - **Google Colab** – for cloud-based development (via Google Drive integration)
 
